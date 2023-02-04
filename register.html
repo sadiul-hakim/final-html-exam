@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <h1>Register Page</h1>
+    <hr />
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <hr />
+    <fieldset>
+      <legend>Register User</legend>
+      <form>
+        <div>
+          <label>Full Name : </label>
+          <input type="text" name="fullname" aria-label="none" required />
+        </div>
+        <br />
+        <div>
+          <label>Email : </label>
+          <input type="email" name="email" aria-label="none" required />
+        </div>
+        <br />
+        <div>
+          <label>Phone</label>
+          <input type="number" name="phone" aria-label="none" />
+        </div>
+        <br />
+        <div>
+          <label>Password</label>
+          <input type="password" name="password" aria-label="none" required />
+        </div>
+        <br />
+        <div>
+          Gender : Male
+          <input type="radio" name="gender" aria-label="none" /> Female
+          <input type="radio" name="gender" aria-label="none" />
+        </div>
+        <br />
+        <div>
+          Country :
+          <select name="country">
+            <option>--select country--</option>
+            <optgroup label="Asia">
+              <option>Bangladesh</option>
+              <option>India</option>
+              <option>Pakistan</option>
+            </optgroup>
+            <optgroup label="Amairica">
+              <option>Brazil</option>
+              <option>Argentina</option>
+              <option>Maxico</option>
+            </optgroup>
+          </select>
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" aria-label="none" name="terms" required />
+          Accept all terms
+        </div>
+        <br />
+        <div>
+          <button>Register</button>
+          <button>Reset</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
